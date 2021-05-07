@@ -1,0 +1,279 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container-fluid{
+	background-color: #F5F9FA;
+}
+.logo{
+	padding: 25px 0px;
+}
+
+/*------------------Banner---------------*/
+
+.banner{
+	background: url(../img/banner.jpg)no-repeat;
+	position: center top;
+	background-size: cover;
+	padding: 150px 0px;
+}
+.banner-one{
+	color: #F5F9FA;
+	text-align: center;
+	font-size: 150px;
+}
+span{
+	width: 600px;
+	display: block;
+	border-bottom: 2px solid #15a4fa;
+	margin: 10px auto;
+}
+.banner-two{
+	text-align: center;
+	color: #F5F9FA;
+	padding: 25px 0px;
+	font-size: 20px;
+}
+button{
+	padding: 5px 20px;
+	background: transparent;
+	border: 1px solid #15a4fa;
+	color: #F5F9FA;
+	margin: 0px auto;
+	display: block;
+}
+.icon{
+	text-align: center;
+}
+.fa.fa-angle-down{
+	color: #F5F9FA;
+	margin-top: 250px;
+	font-size: 40px;
+}
+
+/*-----------------------Notice----------------*/
+
+.notice{
+	background-color: #F5F9FA;
+	text-align: center;
+	padding: 30px 0px;
+}
+.note-one{
+	font-size: 50px;
+}
+.note-two{
+	color: grey;
+	margin: 0px 100px;
+}
+
+/*----------------Action----------------*/
+
+.action{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+}
+.four{
+	text-align: center;
+}
+.five{
+	text-align: center;
+}
+.six{
+	text-align: center;
+}
+.act-one{
+	padding-top: 25px;	
+}
+.act-two{
+	margin: 0px 30px;
+}
+
+/*-------------------Show---------------*/
+
+.Show{
+	width: 100%;
+	float: left;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #F5F9FA;
+}
+.seven{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.seven p{
+	color: grey;
+}
+.img-hover{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.img-hover img{
+	width: 100%;
+}
+.img-hover:hover .image-hover-content{
+	right: 0;
+}
+.image-hover-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #add8e680;
+	top: 0;
+	right: -100%;
+	transition: 0.8s ease-in-out;
+}
+.image-hover-content h4{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+}
+.image-hover-content h6{
+	position: absolute;
+	top: 60%;
+	left: 25%;
+}
+.eight{
+	margin-top: 20px;
+}
+
+/*-----------------Contact---------------*/
+
+.contact{
+	width: 100%;
+	float: left;
+	background-color: #374254;
+	padding: 50px 0px;
+}
+.cstm-area{
+	width: 100%;
+	height: 150px;
+	padding-left: 10px;
+	background: transparent;
+}
+.check{
+	float: left;
+	height: 25px;
+}
+.sub-btn{
+	float: right;
+	background: transparent;
+	border: 1px solid #16A4F8;
+	padding: 2px 30px;
+	color: #F5F9FA;	
+}
+.form-control{
+	background: transparent;
+	border: 1px solid grey;
+}
+.text-center h1{
+	color: #F5F9FA;
+}
+.text-center p{
+	color: grey;
+	padding-bottom: 30px;
+}
+label{
+	padding-left: 10px;
+	color: #F5F9FA;
+}
+
+/*-------------Footer------------*/
+
+footer{
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	background-color: #F5F9FA;
+}
+.ten p{
+	color: grey;
+	float: left;
+}
+.nine ul{
+	float: right;
+}
+.nine li{
+	list-style: none;
+	display: inline-block;
+}
+.nine a{
+	text-decoration: none;
+}
+.fa.fa-facebook-official{
+	font-size: 30px;
+	color: #16A4FA;
+}
+.fa.fa-twitter-square{
+	font-size: 30px;
+	color: #16A4FA;
+}
+.fa.fa-google-plus-square{
+	font-size: 30px;
+	color: #16A4FA;
+}
+.fa.fa-linkedin-square{
+	font-size: 30px;
+	color: #16A4FA;
+}
+
+/*------------Media Query-------------*/
+
+@media (min-width: 320px) and (max-width: 576px){
+
+/*------------------Banner----------------*/
+	
+	.banner{
+		padding: 50px 0px;
+	}
+	.banner-one{
+		font-size: 100px;
+	}
+	span{
+		width: 500px;
+	}
+	.banner-two{
+		font-size: 15px;
+	}
+	.fa.fa-angle-down{
+		color: #F5F9FA;
+		margin-top: 100px;
+		font-size: 40px;
+	}
+
+/*---------------------Notice-----------------*/
+
+	.note-two{
+		margin: 0px 10px;
+	}
+
+/*---------------------Action-----------------*/
+
+	.five{
+		padding-top: 30px;
+	}
+	.six{
+		padding-top: 30px;
+	}
+
+/*------------------Show------------------*/
+
+	.seven h1{
+		font-size: 30px;
+	}
+	.show2{
+		padding-top: 20px;
+	}
+	.show3{
+		padding-top: 20px;
+	}
+	.show5{
+		padding-top: 20px;
+	}
+	.show6{
+		padding-top: 20px;
+	}
+}
